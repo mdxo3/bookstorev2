@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн книжарница</title>
+</head>
+<body>
+    <h1>Онлайн книжарница</h1>
+
+    <h2>Налични книги</h2>
+
+    <!-- Статичен формуляр за сортиране (няма да работи динамично) -->
+    <form action="#" method="GET">
+        <label for="order">Сортиране по:</label>
+        <select name="order">
+            <option value="title">Заглавие</option>
+            <option value="author">Автор</option>
+            <option value="price">Цена</option>
+        </select>
+        <label for="sort">Ред:</label>
+        <select name="sort">
+            <option value="ASC">Възходящ</option>
+            <option value="DESC">Низходящ</option>
+        </select>
+        <input type="submit" value="Сортиране">
+    </form>
+
+    <table border="1">
+        <tr>
+            <th>Заглавие</th>
+            <th>Автор</th>
+            <th>Цена</th>
+        </tr>
+        <!-- Примерни данни -->
+        <tr>
+            <td>Книга 1</td>
+            <td>Автор 1</td>
+            <td>10 лв</td>
+        </tr>
+        <tr>
+            <td>Книга 2</td>
+            <td>Автор 2</td>
+            <td>15 лв</td>
+        </tr>
+        <tr>
+            <td>Книга 3</td>
+            <td>Автор 3</td>
+            <td>20 лв</td>
+        </tr>
+        <tr>
+            <td>Книга 4</td>
+            <td>Автор 4</td>
+            <td>25 лв</td>
+        </tr>
+    </table>
+</body>
+</html>
